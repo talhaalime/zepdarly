@@ -15,8 +15,9 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Browse our latest products",
+            "heading": "Browse our recently latest products",
             "heading_size": "h0"
+            
           }
         },
         "button": {
