@@ -312,12 +312,15 @@
     <h1>Hello from vs codes </h1>
 
     <pre>
-    {% if request.design_mode  %%}
-      You are in design mode.
-    {% else %}
-      You are not in design mode.
-    {% endif %}
+      
+      {% if request.design_mode  %%}
+        You are in design mode.
+      {% else %}
+        You are not in design mode.
+      {% endif %}
+
     </pre>
+
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
       {{ content_for_layout }}
     </main>
